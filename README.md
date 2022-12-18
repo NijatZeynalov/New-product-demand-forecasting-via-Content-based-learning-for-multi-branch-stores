@@ -33,13 +33,15 @@ As mentioned early, as a train data, 23.345 books have been scraped from Ali and
 
 ### 5.3. Techniques
 
-The proposed work can be divided into two main parts
+The proposed work can be divided into two main parts:
 
 __| Content-based filtering__
 
-The goal behind content-based filtering is to classify products, learn what the product look likes, look up those products in the database, and then recommend similar things.
+The goal behind content-based filtering is to classify products, learn what the product look likes, look up those products in the database, and then recommend similar things. When the representative add new book's characteristics (name, genre, author name, collection, language, publishing year and etc.) which has never been sold in the store, the system returns 3 most similiar book.  
 
-|| Sales forecasting
+__|| Sales forecasting__
+
+Given similiar books are the input of the sales forecasting algorithm which is try to determines the number of sales by predicting consumer behavior with these books from past transactions. 
 
 
 ## 6. Implementation
