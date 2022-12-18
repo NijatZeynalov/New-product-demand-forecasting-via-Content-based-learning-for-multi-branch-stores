@@ -54,11 +54,13 @@ Given similiar books are the input of the sales forecasting algorithm which is t
 
 After the user adds new book with its features, our content filtering model comes into play. It utilizes properties and the metadata of a particular book to suggest other items with similar characteristics.  We use the cosine function to compute the similarity score between books, where each book will have a similarity score with every other book in our dataset.
 
+![Cosine similarity](https://www.researchgate.net/publication/334029527/figure/fig5/AS:1086051980447760@1635946378832/Cosine-similarity-angle-Note-If-the-angle-between-vectors-is-zero-degrees-then-the.jpg)
+
 When we determine most similiar three books, we use Temporal Fusion Transformer demand forecasting algorithm in order to predict future 3 month sales of these books over the all branches. It is a large model and will therefore perform much better with more data. Bu ghe biggest advantages of TFT are versatility and interpretability. In other words, the model works with multiple time series, with all sorts of inputs (even categorical variables).
 
-![arthitecture](https://miro.medium.com/max/4800/1*7rXe_MVn5QI9oLP2vrMdvQ.webp)
+![Top level architecture of TFT, along with its main components (Source)](https://miro.medium.com/max/4800/1*7rXe_MVn5QI9oLP2vrMdvQ.webp)
 
-Figure 1: Top level architecture of TFT, along with its main components (Source)
+
 
 
 
