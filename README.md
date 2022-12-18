@@ -3,7 +3,7 @@
 ---
 ## 1. Overview and motivation
 
-Forecasting sales is always a challenging task because of the many variables and unknown factors involved. The job becomes all the more difficult when you’re forecasting sales of a new product because you have no past performance on which to base your estimates.
+Forecasting sales is a challenging task when you’re forecasting sales of a new product because you have no past performance on which to base your estimates.
 
 Classic demand forecasting methods assume the availability of sales data for a certain historical period, which is obviously not the case when concerning a new product. Most research papers and approaches are limited either to a specific category of goods or use sophisticated marketing methods.
 
