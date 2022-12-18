@@ -27,11 +27,11 @@ The general objective of this work is to propose a forecasting method based on m
 
 The proposed work satisfies initial conditions because it meets all the requirements – forecasting demand without any marketing research and to work independent of the type of goods and historical data, so the goal of the work has been achieved. Community can use this model for predicting software development which could successfully work with very complex problems of predicting new good demand. This work can be used by companies’ analysts for optimizing sales assortment, planning and logistic optimization, as well as, can be useful for increasing the accuracy of other prediction systems as part of committee.
 
-### 5.2. Data
+### 2.2. Data
 
 As mentioned early, as a train data, 23.345 books have been scraped from Ali and Nino book-store website. Then, sales data has been generated based on each branch's characteristics (location, possible most sold books, the number of potential customers and etc.). Holidays, weekend-weekdays, customer purchasing power that varies based on various influences (COVID 19 etc.) taken into account and the dataset was designed accordingly.
 
-### 5.3. Techniques
+### 2.3. Techniques
 
 The proposed work can be divided into two main parts:
 
@@ -44,16 +44,16 @@ __|| Sales forecasting__
 Given similiar books are the input of the sales forecasting algorithm which is try to determines the number of sales by predicting consumer behavior with these books from past transactions. 
 
 
-## 6. Implementation
+## 3. Implementation
 
-### 6.1. High-level design
+### 3.1. High-level design
 
 ![arthitecture](https://user-images.githubusercontent.com/31247506/204340965-6ca7eba7-d12d-4f8b-9b58-b8e94a056269.jpg)
 
-### 6.2 Technical implementation
+### 3.2 Technical implementation
 
 
-### 6.3. Infra
+### 3.3. Infra
 
 How will you host your system? On-premise, cloud, or hybrid? This will define the rest of this section
 
