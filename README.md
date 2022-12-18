@@ -52,19 +52,23 @@ Given similiar books are the input of the sales forecasting algorithm which is t
 
 ### 3.2 Technical implementation
 
-After the user adds new book with its features, our content filtering model comes into play. It utilizes properties and the metadata of a particular book to suggest other items with similar characteristics.  We use the cosine function to compute the similarity score between books, where each book will have a similarity score with every other book in our dataset.
+1. After the user adds new book with its features, our content filtering model comes into play. It utilizes properties and the metadata of a particular book to suggest other items with similar characteristics.  We use the cosine function to compute the similarity score between books, where each book will have a similarity score with every other book in our dataset.
 
 Cosine similarity architecture
 
 ![Cosine similarity](https://miro.medium.com/max/1518/1*LF62aNT2XqWioSu4Beoi5Q.png)
 
-When we determine most similiar three books, we use Temporal Fusion Transformer demand forecasting algorithm in order to predict future 3 month sales of these books over the all branches. It is a large model and will therefore perform much better with more data. Bu ghe biggest advantages of TFT are versatility and interpretability. In other words, the model works with multiple time series, with all sorts of inputs (even categorical variables).
+2. When we determine most similiar three books, we use Temporal Fusion Transformer demand forecasting algorithm in order to predict future 3 month sales of these books over the all branches. It is a large model and will therefore perform much better with more data. Bu ghe biggest advantages of TFT are versatility and interpretability. In other words, the model works with multiple time series, with all sorts of inputs (even categorical variables).
 
 Top level architecture of TFT, along with its main components
 
 ![Top level architecture of TFT, along with its main components (Source)](https://miro.medium.com/max/4800/1*7rXe_MVn5QI9oLP2vrMdvQ.webp)
 
 
+3. The last step is to build the Fast API. When the user sends a book features to the uvicorn server which interacts with the API to trigger the prediction model. As a result, the model returns the result that is shown to the user in a JSON format. After creating the API, I create a Docker Image in which the app will the running.
+
+
+![Top level architecture of API (Source)](https://miro.medium.com/max/1400/1*GvRd2gpkuUkg_x78N4QqaA.webp)
 
 
 
