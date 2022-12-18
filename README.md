@@ -20,6 +20,12 @@ The general objective of this work is to propose a forecasting method based on m
 
 * no need for marketing research.
 
+__and most importantly, it will help to find answers to the following questions of the company:__
+
+__* I have never sold this product before, how will the demand be?__
+
+__* If I order this product, how many units should I send to which branch?__
+
 
 ## 2. Methodology
 
@@ -80,6 +86,10 @@ By looking at the API Response body section, we can see its result as follow:
 [{"filial_ad":"Əli və Nino-3","kitab_say":49}, {"filial_ad":"Əli və Nino-6","kitab_say":23}, {"filial_ad":"Əli və Nino-8","kitab_say":16}, {"filial_ad":"Əli və Nino-9","kitab_say":9}]
 
 ```
+As we expected, it shows how many units predicted to sold in the next 3 months for each branch.
+
+
+Now it is time to deploy it into a Docker container. The idea behind containerization is that it will make our API portable and able to run uniformly and consistently across any platform (including the cloud), in a more secured way.
 
 ### 3.3. Infra
 
