@@ -89,32 +89,31 @@ By looking at the API Response body section, we can see its result as follow:
 As we expected, it shows how many units predicted to sold in the next 3 months for each branch.
 
 
-Now it is time to deploy it into a Docker container. The idea behind containerization is that it will make our API portable and able to run uniformly and consistently across any platform (including the cloud), in a more secured way.
+Now it is time to deploy it into a Docker container. The idea behind containerization is that it will make our API portable and able to run uniformly and consistently across AWS, in a more secured way.
 
 ### 3.3. Infra
 
-How will you host your system? On-premise, cloud, or hybrid? This will define the rest of this section
-
-### 6.4. Performance (Throughput, Latency)
-
-How will your system meet the throughput and latency requirements? Will it scale vertically or horizontally?
+I am hosting the system on AWS ECS which is one of the best tools to easily deploy containerized applications from the docker hub registry. Everything that I used in this project is supposed to be without any additional charge, so anyone can use AWS free tier to follow along. 
 
 
-### 6.5. Cost
-How much will it cost to build and operate your system? Share estimated monthly costs (e.g., EC2 instances, Lambda, etc.)
+### 3.4. Performance (Throughput, Latency)
+
+The system meet the throughput and latency requirements as much as possible. Content filtering module app. takes 0.1-0.2 seconds and sales forecasting module takes 7-8 seconds for per request.
 
 
-## 7. Appendix
-
-### 7.1. Experiment Results
-
-Share any results of offline experiments that you conducted.
+## 4. Appendix
 
 
+### 4.1. References
 
-### 7.2. References
+I am adding references that I have consulted for my methodology.
 
-Add references that you might have consulted for your methodology.
+[Step-by-step Approach to Build Your Machine Learning API Using Fast API](https://towardsdatascience.com/step-by-step-approach-to-build-your-machine-learning-api-using-fast-api-21bd32f2bbdb)
 
+[Fast API, Docker and AWS ECS to Deploy ML Model](https://www.analyticsvidhya.com/blog/2022/09/fast-api-docker-and-aws-ecs-to-deploy-machine-learning-model/)
 
+[Time Series Made Easy in Python](https://unit8co.github.io/darts/)
 
+[Content-Based Recommendation System](https://studymachinelearning.com/content-based-recommendation-system/)
+
+[How to forecast sales of a new product](https://www.bdc.ca/en/articles-tools/marketing-sales-export/sales/forecasting-sales-of-new-products)
