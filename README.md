@@ -10,12 +10,16 @@ Classic demand forecasting methods assume the availability of sales data for a c
 Despite the difficulties, sales forecasts are necessary for planning the resources you will need to meet actual demand, including inventory, staff and cash flow. A sales forecast is also an important tool in measuring the performance of your sales, marketing and operations.  In production, forecasting is also needed to decide what types of goods to produce. In management, decision makers can optimize processes based on accurate forecasts.
 
 
-The proposed work is based on Ali and Nino multi-branch book store's sales data. Dataset is contains 23.345 books with over 90k unique customers per month and more than 170 orders per day. Although, sales dataset was generated artifically based on human So, even small improvement in forecast accuracy can lead to significant increase of company profit and customers can buy quicker and at lower price.
+The proposed work is based on Ali and Nino multi-branch book store's sales data. Dataset is contains 23.345 books with over 90k unique customers per month and more than 170 orders per day. Although sales dataset was generated artifically, the approach can be apply to real cases and even small improvement in forecast accuracy can lead to significant increase of company profit and customers can buy quicker and at lower price.
 
 The general objective of this work is to propose a forecasting method based on machine learning models to forecast the demand of new products satisfying the following conditions:
+
  does not depend on the type of goods;
+
  can work without history of sales;
+
  can work with large data set;
+
  no need for marketing research.
 
 ## 3. Success metrics
