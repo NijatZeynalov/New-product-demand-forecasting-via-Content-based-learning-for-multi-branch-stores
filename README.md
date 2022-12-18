@@ -76,6 +76,10 @@ Fast API provides a complete dashboard for interacting with our API.
 
 By looking at the API Response body section, we can see its result as follow:
 
+```
+[{"filial_ad":"Əli və Nino-3","kitab_say":49}, {"filial_ad":"Əli və Nino-6","kitab_say":23}, {"filial_ad":"Əli və Nino-8","kitab_say":16}, {"filial_ad":"Əli və Nino-9","kitab_say":9}]
+
+```
 
 ### 3.3. Infra
 
