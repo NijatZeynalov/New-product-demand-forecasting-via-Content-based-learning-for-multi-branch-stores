@@ -83,7 +83,7 @@ Fast API provides a complete dashboard for interacting with our API.
 By looking at the API Response body section, we can see its result as follow:
 
 ```
-[{"filial_ad":"Əli və Nino-3","kitab_say":49}, {"filial_ad":"Əli və Nino-6","kitab_say":23}, {"filial_ad":"Əli və Nino-8","kitab_say":16}, {"filial_ad":"Əli və Nino-9","kitab_say":9}]
+[{"filial_ad":"Eli ve Nino-3","kitab_say":49}, {"filial_ad":"Eli ve Nino-6","kitab_say":23}, {"filial_ad":"Eli ve Nino-8","kitab_say":16}, {"filial_ad":"Eli ve Nino-9","kitab_say":9}]
 
 ```
 As we expected, it shows how many units predicted to sold in the next 3 months for each branch.
