@@ -30,9 +30,16 @@ The proposed work satisfies initial conditions because it meets all the requirem
 ### 5.2. Data
 
 As mentioned early, as a train data, 23.345 books have been scraped from Ali and Nino book-store website. Then, sales data has been generated based on each branch's characteristics (location, possible most sold books, the number of potential customers and etc.). Holidays, weekend-weekdays, customer purchasing power that varies based on various influences (COVID 19 etc.) taken into account and the dataset was designed accordingly.
+
 ### 5.3. Techniques
 
-What machine learning techniques will you use? How will you clean and prepare the data (e.g., excluding outliers) and create features?
+The proposed work can be divided into two main parts
+
+__| Content-based filtering__
+
+The goal behind content-based filtering is to classify products, learn what the product look likes, look up those products in the database, and then recommend similar things.
+
+|| Sales forecasting
 
 
 ## 6. Implementation
