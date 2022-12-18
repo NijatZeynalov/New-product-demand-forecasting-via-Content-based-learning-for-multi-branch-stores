@@ -70,6 +70,11 @@ Top level architecture of TFT, along with its main components
 
 ![Top level architecture of API (Source)](https://miro.medium.com/max/1400/1*GvRd2gpkuUkg_x78N4QqaA.webp)
 
+Fast API provides a complete dashboard for interacting with our API.
+
+![Result](https://user-images.githubusercontent.com/31247506/208299045-b89de2ca-5047-48fc-8174-e4e702c0a6e0.png)
+
+By looking at the API Response body section, we can see its result as follow:
 
 
 ### 3.3. Infra
