@@ -56,7 +56,7 @@ After the user adds new book with its features, our content filtering model come
 
 When we determine most similiar three books, we use Temporal Fusion Transformer demand forecasting algorithm in order to predict future 3 month sales of these books over the all branches. It is a large model and will therefore perform much better with more data. Bu ghe biggest advantages of TFT are versatility and interpretability. In other words, the model works with multiple time series, with all sorts of inputs (even categorical variables).
 
-![arthitecture](https://user-images.githubusercontent.com/31247506/204340965-6ca7eba7-d12d-4f8b-9b58-b8e94a056269.jpg)
+![arthitecture](https://miro.medium.com/max/4800/1*7rXe_MVn5QI9oLP2vrMdvQ.webp)
 
 Figure 1: Top level architecture of TFT, along with its main components (Source)
 
